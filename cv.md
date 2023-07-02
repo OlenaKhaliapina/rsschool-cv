@@ -6,3 +6,12 @@
 - E-mail: halyapina.elena@gmail.com
 - [LinkedIn](www.linkedin.com/in/elena-khaliapina)
 
+### About me ###
+I enjoy when my code turns into a beautiful website.
+
+### Skills: ###
+- HTML/CSS
+- JavaScript
+- Bootstrap, GSAP
+- VS Code, WebStorm
+- Git, GitHub
