@@ -1,2 +1,2 @@
 # Olena Khaliapina #
-### Front-End Developer ###
+## Front-End Developer ##
