@@ -15,3 +15,12 @@ I enjoy when my code turns into a beautiful website.
 - Bootstrap, GSAP
 - VS Code, WebStorm
 - Git, GitHub
+
+### Education: ###
+- student at RS school
+- student at CanSheCode Inc.
+- SheCodes
+
+### Languages: ###
+- Ukraine - native speaker
+- English - fluent
