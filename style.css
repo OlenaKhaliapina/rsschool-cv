@@ -12,6 +12,7 @@ body {
     line-height: 1.5;
     color: #233d23;
 }
+
 html {
     scroll-behavior: smooth; 
 }
@@ -53,13 +54,13 @@ html {
     animation-fill-mode: forwards;
 }
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     min-height: 50px;
 }
 
 .header-container {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 .main-container {
@@ -77,6 +78,7 @@ html {
     padding-bottom: 35px;
     border-bottom: 1px solid #FFD89C;
   }
+
 .my-logo {
     border-radius: 35px;
     width: 200px;
@@ -115,3 +117,30 @@ html {
     padding: 0;
     margin: 0;
 }
+.section-list li {
+    gap: 15px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.contacts-item :hover {
+    background: #FFD89C; /* Цвет фона под ссылкой */ 
+    color: #233d23;
+}
+  
+.footer {
+    background-color: #85A389;
+    padding: 10px;  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #f7d29b;
+  }
