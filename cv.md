@@ -21,6 +21,6 @@ I enjoy when my code turns into a beautiful website.
 - student at CanSheCode Inc.
 - SheCodes
 
-### Languages: ###
+### Language: ###
 - Ukraine - native speaker
 - English - fluent
