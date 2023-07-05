@@ -1,2 +1,1 @@
-https://OlenaKhaliapina.github.io/rsschool-cv/
-https://OlenaKhaliapina.github.io/rsschool-cv/cv
+https://olenakhaliapina.github.io/rsschool-cv/
