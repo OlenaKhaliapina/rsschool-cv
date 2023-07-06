@@ -131,6 +131,10 @@ a {
     background: #FFD89C; /* Цвет фона под ссылкой */ 
     color: #233d23;
 }
+#projects .section-item:hover {
+    border-bottom: 3px solid #f7c57bb2; /* Цвет фона под ссылкой */ 
+    color: #233d23;
+}
   
 .footer {
     background-color: #85A389;
