@@ -12,7 +12,6 @@ body {
     line-height: 1.5;
     color: #233d23;
 }
-
 html {
     scroll-behavior: smooth; 
 }
@@ -132,8 +131,14 @@ a {
     color: #233d23;
 }
 #projects .section-item:hover {
-    border-bottom: 3px solid #f7c57bb2; /* Цвет фона под ссылкой */ 
+    border-bottom: 3px solid #f7c57bb2; 
     color: #233d23;
+}
+.pre {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  flex-wrap: wrap;
 }
   
 .footer {
@@ -147,4 +152,56 @@ a {
     align-items: center;
     margin: 0 auto;
     color: #f7d29b;
+  }
+  @media (max-width: 800px) {
+    .section {
+      width: 100%;
+    }
+    .section-logo {
+      flex-direction: column;
+      align-items: center;
+    }  
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      min-height: 50px;
+  }
+    .footer-container {
+      justify-content: space-between;
+    }
+    .skills {
+      font-size: 15px;
+  }
+  .nav-li {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      max-width: 450px;
+  }
+  .nav-li {
+    align-items: center;
+  }
+  .my-logo {
+    width: 200px;
+  }
+  .h1-title {
+    font-size: 20px;
+    font-weight: 150;
+    letter-spacing: 5px;
+    word-spacing: 4px;
+  }
+  .section-logo .h2-title {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+.footer img {
+  width: 70px;
+  padding: 5px;  
+}
   }
