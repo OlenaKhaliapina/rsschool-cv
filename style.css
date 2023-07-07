@@ -169,6 +169,14 @@ a {
     .footer-container {
       justify-content: space-between;
     }
+    .skills {
+      font-size: 15px;
+  }
+  .nav-li {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 10px;
+  }
   }
   
   @media (max-width: 500px) {
@@ -176,9 +184,7 @@ a {
       max-width: 450px;
   }
   .nav-li {
-    padding: 10px;
-    font-size: 15px;
-    line-height: 10px;
+    align-items: center;
   }
   .my-logo {
     width: 200px;
@@ -195,9 +201,6 @@ a {
     font-weight: 100;
     letter-spacing: 2px;
   }
-  .skills {
-    font-size: 17px;
-}
 .footer img {
   width: 70px;
   padding: 5px;  
