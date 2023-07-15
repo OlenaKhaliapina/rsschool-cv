@@ -12,18 +12,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
     <header class="header-main">
-        <div class="container">
+        <div class="header-container">
             <div class="name">
                 <h1>Brooklyn Public Library</h1>
             </div>
-            <nav class="menu">
+            <nav class="nav-menu">
                 <ul class="nav-ul">
-                    <li class="nav-li"><a data-link="About">About</a></li>
-                    <li class="nav-li"><a data-link="Favorites">Favorites</a></li>
-                    <li class="nav-li"><a data-link="Coffee shop">Coffee shop</a></li>
-                    <li class="nav-li"><a data-link="Contacts">Contacts</a></li>
-                    <li class="nav-li"><a data-link="Library Card">Library Card</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#favorites">Favorites</a></li>
+                    <li><a href="#coffee">Coffee shop</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#library">Library Card</a></li>
                 </ul>
             </nav>
             <div class="logo-nav">
@@ -34,16 +35,19 @@
         </div>
      </header>
 
-<main class="main">
-    <div class="container main-container">
-        <section class="section section-logo">
-            <img src="./Welcomemain-logo.png" alt="Library">
-        </section>
+<main>
+    <section class="section-welcome container">
+        <div class="other">
+            <div class="section-menu">
+                Welcome <br>to the Brooklyn Library
+            </div>
+        </div>
+    </section>
 
-        <section class="section" id="About">
-            <h2 class="section-title">About</h2>
+         <section class="about container" >
+            <h2 class="section-title" id="about">About</h2>
             <hr>
-            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+            <p class="section-about">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
             <div class="section-image">
                 <div class="image">
                     <img src="./image 1.png" alt="image1">
@@ -55,22 +59,110 @@
                     <img src="./image 3.png" alt="image3">
                 </div>
             </div>
-            <div class="logo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="16" viewBox="0 0 68 16" fill="none">
-                <rect width="16" height="16" rx="8" fill="#BB945F"/>
-                <rect x="26" width="16" height="16" rx="8" fill="#0C0C0E"/>
-                <rect x="52" width="16" height="16" rx="8" fill="#0C0C0E"/>
-              </svg>
-            </div>
+            
+                <div class="section-dot">
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
         </section>
 
-        <section class="section" id="Favorites">
-            <h2 class="section-title">Favorites</h2>
+        <section class="favorites container" >
+            <h2 class="section-title" id="favorites">Favorites</h2>
             <hr>
-            
-            
-        </section>
+            <p class="section-favorites">Pick favorites of season</p>
+            <br>
+            <div class="input">
+                <div >
+                    <input type="radio"><label for="Winter">Winter</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="Spring">Spring</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="Summer">Summer</label>
+                </div>
+                <div>
+                    <input type="radio"><label for="Autumn">Autumn</label>
+                </div>
+            </div>
 
+            <div class="products-items">
+
+                <div class="products-item">
+                    <div class="products-item-title">Staff Picks</div>
+                    <hr class="products-line">
+                    <div class="autor"><span class="first">The Book Eaters</span><br>
+                        <span class="second">By Sunyi Dean</span></div>
+                      <div class="products-item-text">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.       
+                       </div>
+                        <div class="products-item-action">
+                            <button class="product-button">Buy</button>
+                        </div>
+                        <div class="products-item-image">
+                            <img src="./book1.jpg" alt="book1">
+                        </div>
+                </div>
+
+                <div class="products-item">
+                    <div class="products-item-title">Staff Picks</div>
+                    <hr class="products-line">
+                    <div class="autor"><span class="first">Cackle
+                        </span><br>
+                        <span class="second">By Rachel Harrison</span></div>
+                      <div class="products-item-text">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.       
+                       </div>
+                        <div class="products-item-action">
+                            <button class="product-button">Buy</button>
+                        </div>
+                        <div class="products-item-image">
+                            <img src="./book2.jpg" alt="book2">
+                        </div>
+                </div>
+
+                <div class="products-item">
+                    <div class="products-item-title">Staff Picks</div>
+                    <hr class="products-line">
+                    <div class="autor"><span class="first">Dante: Poet of the Secular World
+                        </span><br> 
+                        <span class="second">By Erich Auerbach</span>
+                    </div>
+                      <div class="products-item-text">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.       
+                       </div>
+                        <div class="products-item-action">
+                            <button class="product-button">Buy</button>
+                        </div>
+                        <div class="products-item-image">
+                            <img src="./book3.jpg" alt="book3">
+                        </div>
+                </div>
+
+                <div class="products-item">
+                    <div class="products-item-title">Staff Picks</div>
+                    <hr class="products-line">
+                    <div class="autor"><span class="first">The Last Queen
+                        </span><br> 
+                        <span class="second">By Clive Irving</span></div>
+                      <div class="products-item-text">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.       
+                       </div>
+                        <div class="products-item-action">
+                            <button class="product-button">Buy</button>
+                        </div>
+                        <div class="products-item-image">
+                            <img src="./book4.jpg" alt="book4">
+                        </div>
+                </div>
+
+                
+            </div>
+                    
+         
+
+
+        </section> 
+
+        
+      
 
 
 
@@ -83,6 +175,6 @@
 
 
 
-    
+</div>
 </body>
 </html>
