@@ -161,7 +161,6 @@ hr {
     font-family: Forum;
     font-size: 20px;
     letter-spacing: 2px;
-    
 }
 .products-line{
     width: 60px;
@@ -185,7 +184,6 @@ hr {
 .second {
     text-transform: capitalize;
 }
-
 .products-item-text{
     width: 355px;
     height: 320px;
@@ -225,14 +223,11 @@ hr {
     border-radius: 2px;
     border: 1px solid #BB945F;
 }
-
 .products-item-image{
     position: absolute;
     bottom: -5px;
     right: -45px;
-
 }
-
 .shop-text {
     width: 1400px;
     text-align: center;
@@ -242,9 +237,8 @@ hr {
     text-transform: capitalize;
     letter-spacing: 2px;
     line-height: 40px;
-    
 }
-
+/*................................ Меню кафе  */
 .menu{
     height: 520px;
     width: 1400px;
@@ -253,44 +247,45 @@ hr {
     justify-content: space-between;
     margin: 40px 20px;
 }
-.coffe-menu, .desserts-menu{
+.coffe-menu{
     width: 438px;
     height: 520px;
-    border: 1px solid #f53527;
 }
 .coffe-menu-title{
     color: #BB945F;
     font-family: Forum;
     font-size: 40px;
     text-transform: capitalize;
-    height: 40px;
-    width: 235px;
 }
 .coffe-menu-line{
     display: inline-flex;
     width: 438px;
     height: 40px;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
     font-family: Inter;
     font-size: 20px;
-    border: 1px solid #19f52b;
+    margin-top: 40px;
 }
-.coffe-title{
-    width: 197px;
+.coffe-menu-item{
+    width: 185px;
 }
 .coffe-line{
     width: 100px;
     height: 1px;
     background-color: #BB945F; 
-    margin-top: 10px;
 }
-
-
-
-
-
-.Coffeeshop {
-    border: 1px solid #dd27f5;
-    
+.desserts-menu-title{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 150px;
+    height: 40px;
+    width: 315px;
 }
+.desserts-menu-item{
+    text-align: end;
+    width: 185px;
+}
+/*................................ Контакты  */
