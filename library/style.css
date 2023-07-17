@@ -139,7 +139,6 @@ hr {
 
 .section-favorites{
     margin-left: 20px;
-    color: #000;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
@@ -242,10 +241,10 @@ hr {
 .menu{
     height: 520px;
     width: 1400px;
-    border: 1px solid #27ccf5;
     display: flex;
     justify-content: space-between;
-    margin: 40px 20px;
+    border: 1px solid #5d5df5;
+    /* margin: 40px 20px; */
 }
 .coffe-menu{
     width: 438px;
@@ -255,7 +254,6 @@ hr {
     color: #BB945F;
     font-family: Forum;
     font-size: 40px;
-    text-transform: capitalize;
 }
 .coffe-menu-line{
     display: inline-flex;
@@ -279,9 +277,7 @@ hr {
     color: #BB945F;
     font-family: Forum;
     font-size: 40px;
-    text-transform: capitalize;
     margin-left: 150px;
-    height: 40px;
     width: 315px;
 }
 .desserts-menu-item{
@@ -289,3 +285,90 @@ hr {
     width: 185px;
 }
 /*................................ Контакты  */
+.contact, .coffeeshop{
+    padding: 20px 20px 40px;
+}
+.contact-info{
+    width:503px;
+    height: 380px;
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact-title{
+    font-size: 20px;
+}
+.contact-info-phone{
+    width: 503px;
+    height: 160px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-info-phone a{
+    text-decoration: none;
+    color: #000;
+}
+.contact-staff{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-staff a{
+    text-decoration: none;
+    color: #000;
+}
+/*....................Карточки входа............*/
+.find-card{
+    margin-top: 40px;
+    display: flex;
+}
+.find-get-card{
+    width: 456px;
+    height: 253px;
+    border: 1px solid #0C0C0E;
+}
+.card-body{
+    font-family: Inter;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.card-body-holder{
+    border: 3px solid #BB945F;
+    margin-top: 30px;
+    width: 600px;
+    height: 386px;
+    
+    
+}
+.card-body-input{
+    width: 560px;
+    height: 272px;
+    background: #BB945F;
+     margin: 20px;
+    
+}
+
+.card-library{
+    margin-left: 20px;
+    width: 294px;
+    font-family: Forum;
+    font-size: 30px;
+    line-height: 50px; 
+    letter-spacing: 0.6px;
+    
+    border: 1px solid #1a1a35;
+
+}
+.card-form, .password{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
